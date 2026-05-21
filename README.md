@@ -91,9 +91,7 @@ The buffer self-powers directly from the harvested energy.
 
 ### 4. Buck Converter
 
-A PWM-controlled buck converter regulates the varying DC input to a stable:
-
-# 3.3V Output
+A PWM-controlled buck converter regulates the varying DC input to a stable **3.3V Output**.
 
 #### Specifications
 
@@ -120,9 +118,9 @@ V_{out} = D \times V_{in}
 
 Where:
 
-- \(D\) = duty cycle
-- \(V_{in}\) = input voltage
-- \(V_{out}\) = regulated output voltage
+- D = duty cycle
+- V_{in} = input voltage
+- V_{out} = regulated output voltage
 
 ---
 
@@ -215,27 +213,22 @@ The hardware implementation successfully demonstrates:
 ### Buck Converter Stage
 
 - IRLZ44N N-Channel MOSFET
-- Inductors:
-  - 4 × 220 µH
-  - 1 × 10 µH
+- Inductors
 - Capacitors
-- Freewheeling diode
+- Freewheeling diode (Schottky diode)
 - Resistors
 
 ### Controller Stage
 
 - Arduino Uno
-- Voltage divider resistors:
-  - 6.8 kΩ
-  - 10 kΩ
+- Voltage divider resistors
 
 ### Window Comparator Stage
 
 - Operational Amplifiers
 - Resistor divider network
 - Diodes
-- Red LED
-- Blue LED
+- Red and Blue LEDs
 
 ### Software and Simulation Tools
 
@@ -244,13 +237,13 @@ The hardware implementation successfully demonstrates:
 
 ### Miscellaneous
 
-- Breadboard / PCB
+- Breadboard
 - Jumper wires
 - Power supply
 - Oscilloscope
 - Multimeter
 
-```
+---
 
 ## Limitations
 
@@ -314,4 +307,4 @@ Piezoelectric-Energy-Harvester/
 └── README.md
 ```
 
-```
+---
