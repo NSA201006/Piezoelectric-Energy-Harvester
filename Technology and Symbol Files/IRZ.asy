@@ -1,0 +1,15 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -122 32 -208 -97
+WINDOW 3 -78 -34 Center 2
+SYMATTR Value irlz44n
+SYMATTR Prefix X
+PIN -160 -96 TOP 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN -208 -32 LEFT 8
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN -160 32 BOTTOM 8
+PINATTR PinName S
+PINATTR SpiceOrder 3
