@@ -119,8 +119,8 @@ V_{out} = D \times V_{in}
 Where:
 
 - D = duty cycle
-- V_{in} = input voltage
-- V_{out} = regulated output voltage
+- V<sub>in</sub> = input voltage
+- V<sub>out</sub> = regulated output voltage
 
 ---
 
@@ -215,7 +215,7 @@ The hardware implementation successfully demonstrates:
 - IRLZ44N N-Channel MOSFET
 - Inductors
 - Capacitors
-- Freewheeling diode (Schottky diode)
+- Freewheeling diode (Schottky Diode)
 - Resistors
 
 ### Controller Stage
@@ -225,7 +225,7 @@ The hardware implementation successfully demonstrates:
 
 ### Window Comparator Stage
 
-- Operational Amplifiers
+- LM358 Operational Amplifiers
 - Resistor divider network
 - Diodes
 - Red and Blue LEDs
